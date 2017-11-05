@@ -21,7 +21,7 @@ def main():
 	config = praw.config.Config(site_name)
 	reddit = praw.Reddit(
 		site_name,
-		user_agent = 'win:{}:v1 by /u/dignifiedbug'.format(config.client_id))
+		user_agent = '{}:v1 by /u/dignifiedbug'.format(config.client_id))
 	subreddit = reddit.subreddit(config.custom['subreddit'])
 	try:
 		print('Referral Link Bot running...\nExit with Ctrl+C\n')
