@@ -1,2 +1,2 @@
 # limit-referral-links
-Limit duplicate links with a cool-off period.
+Require a cool-off period for links posted in your subreddit.
