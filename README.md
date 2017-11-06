@@ -2,7 +2,7 @@
 Enforce a cool-off period for links posted in your subreddit.
 
 ### Setup
-Compatible with Python 3.6
+Python 3.6
 
 pip install [PRAW](https://github.com/praw-dev/praw)
 
